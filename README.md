@@ -1,4 +1,6 @@
-A fully interactive, scroll-driven 3D portfolio website built for the Polygon YSWS workshop.
+A fully interactive, scroll driven 3D portfolio website built for the Polygon YSWS   https://ysws.hackclub.com/#programs-list
+
+workshop.
 
 This project explores procedural geometry, custom textures, and dynamic lighting on the web without relying on heavy frameworks or external assets.
 
