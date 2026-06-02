@@ -3,10 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Sattyam | 3d Intro</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+        }
+
+        /* fixed Bg for 3d intro */
+        #bg{
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100vw;
+            height: 100vh;
+
+
+
+
+
+        }
+
+        /* Main content Container */
+        main{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1;
+
+        }
+        
+        /* Scrolling Effect */
+        section{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 2rem 10%;
+            justify-content: center;
+            box-sizing: border-box;
+            
+        }
+
+        /* GLass effect (G₹assmorphism) */
+        glass-panel{
+            background: rgba(20, 20, 20, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 2.5rem;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            max-width: 600px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+
+        }
+        .glass-panel:hover {
+            transform: translateY(-5px);
+        }
+
+        /*Font (typography)*/
+        h1{
+            font-size: 4rem;
+            margin-bottom: 0 0 1rem 0;
+            line-height: 1.1;
+            background: linear-gradient(90deg, #ff007f, #00d2ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+
+        }
+
+        h2{
+            font-size: 2.5rem;
+            margin-top: 0;
+            color: #00d2ff;
+        }
+
+        p, li{
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #cccccc;
+        }
+
+        .btn{
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 10px 24px;
+            background: linear-gradient(90deg, #ff007f, #00d2ff);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: opacity 0.3s ease;
+        }
+
+        .btn:hover{
+            opacity: 0.8;
+        }
+
+
+
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            h1 { font-size: 3rem; }
+            section { padding: 2rem 5%; }
+        }
+
+
+
+
+
+
+
+    </style>
 </head>
 <body>
+
+
+
+
+
+
+
+
     <h1>About Me</h1>
     <p>Welcome to my profile.</p>
+
+
+
+
+
+    
 </body>
 </html>
